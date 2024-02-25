@@ -1,17 +1,17 @@
 {
-  "id": 7,
-  "name": "doggie",
+  "id": 1945,
+  "name": "Raphael",
   "category": {
-    "id": 1,
-    "name": "Dogs"
+    "id": 60836986,
+    "name": "butterfly"
   },
   "photoUrls": [
-    "http://example.com/doggie.jpg"
+    "www.dewitt-kunde.biz/Photo.jpg"
   ],
   "tags": [
     {
-      "id": 0,
-      "name": "friendly"
+      "id": 7152,
+      "name": "Jenifer"
     }
   ],
   "status": "available"
