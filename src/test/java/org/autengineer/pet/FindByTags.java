@@ -1,11 +1,12 @@
 package org.autengineer.pet;
 
+
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class FindByStatus {
+public class FindByTags {
 
     @BeforeClass
     public static void setup() {
@@ -13,14 +14,17 @@ public class FindByStatus {
     }
 
     @Test
-    public void testFindPetsByStatus() {
+    public void testFindPetsByTags() {
         given()
-                .queryParam("status", "pending")
+                .queryParam("tags", "friendly")
             .when()
-                .get("/pet/findByStatus")
+                .get("/pet/findByTags")
             .then()
                 .statusCode(200)
-                .body("status", everyItem(equalTo("pending")))
+                .body("[0].tags[0].name", equalTo("friendly"))
                 .log().body();
     }
-}
+    }
+
+
+
