@@ -1,0 +1,52 @@
+[
+{
+  "id": 6,
+  "username": "lisette.mante",
+  "firstName": "Eliseo",
+  "lastName": "Upton",
+  "email": "jaleesa.terry@hotmail.com",
+  "password": "zwpdmcy4",
+  "phone": "510-472-5194",
+  "userStatus": 1
+},
+{
+  "id": 8,
+  "username": "kathi.blick",
+  "firstName": "Ed",
+  "lastName": "Shields",
+  "email": "darcie.stoltenberg@gmail.com",
+  "password": "5tit6cotte",
+  "phone": "223.345.8010",
+  "userStatus": 0
+},
+{
+  "id": 0,
+  "username": "sheldon.dach",
+  "firstName": "Eryn",
+  "lastName": "Von",
+  "email": "ronnie.waters@hotmail.com",
+  "password": "d7cll0vi8nn",
+  "phone": "585-562-1845",
+  "userStatus": 0
+},
+{
+  "id": 1,
+  "username": "mariko.champlin",
+  "firstName": "Mickey",
+  "lastName": "Lakin",
+  "email": "nathaniel.prosacco@hotmail.com",
+  "password": "6wdks7cl958y",
+  "phone": "(615) 463-0355",
+  "userStatus": 1
+},
+{
+  "id": 6,
+  "username": "aurea.auer",
+  "firstName": "Loura",
+  "lastName": "Gleason",
+  "email": "hubert.heller@gmail.com",
+  "password": "tdyi124h3re0ng",
+  "phone": "1-188-371-0193",
+  "userStatus": 1
+}
+]
