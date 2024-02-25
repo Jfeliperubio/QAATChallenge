@@ -66,6 +66,10 @@ class Order {
         this.complete = complete;
     }
 
+    public int getId() {
+        return id;
+    }
+
     public int getPetId() {
         return petId;
     }
