@@ -10,7 +10,7 @@ import java.io.File;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class UpdatePet {
+public class UpdatePetTest {
 
     @BeforeClass
     public static void setUp() {

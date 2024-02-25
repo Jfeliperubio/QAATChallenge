@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class AddPet {
+public class AddPetTest {
 
     //Indica si se debe sobrescribir el archivo. Si es false, no se sobrescribirá y se utilizará la data existente.
     //Si es true generara nueva data
