@@ -1,17 +1,17 @@
 {
-  "id": 12345,
+  "id": 7,
   "name": "doggie",
   "category": {
     "id": 1,
     "name": "Dogs"
   },
   "photoUrls": [
-    "string"
+    "http://example.com/doggie.jpg"
   ],
   "tags": [
     {
       "id": 0,
-      "name": "string"
+      "name": "friendly"
     }
   ],
   "status": "available"

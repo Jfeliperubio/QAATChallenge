@@ -32,13 +32,14 @@ public class UpdatePet {
                 .put("/pet")
             .then()
                 .statusCode(200)
-                .body("id", equalTo(10)) // Ajusta las aserciones según los datos actualizados
+                .body("id", equalTo(7))
                 .body("name", equalTo("doggie"))
                 .body("category.id", equalTo(1))
-                .body("category.name", equalTo("dogs"))
+                .body("category.name", equalTo("Dogs"))
                 .body("photoUrls[0]", equalTo("http://example.com/doggie.jpg"))
                 .body("tags[0].id", equalTo(0))
                 .body("tags[0].name", equalTo("friendly"))
-                .body("status", equalTo("available"));
+                .body("status", equalTo("available"))
+                .log().body();
     }
 }

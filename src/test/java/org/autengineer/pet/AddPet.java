@@ -12,7 +12,7 @@ public class AddPet {
 
     //Indica si se debe sobrescribir el archivo. Si es false, no se sobrescribirá y se utilizará la data existente.
     //Si es true generara nueva data
-    private static final boolean OVERWRITE_FILE = false;
+    private static final boolean OVERWRITE_FILE = true;
 
     @BeforeClass
     public static void setUp() {
