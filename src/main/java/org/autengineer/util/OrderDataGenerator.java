@@ -66,6 +66,26 @@ class Order {
         this.complete = complete;
     }
 
+    public int getPetId() {
+        return petId;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public String getShipDate() {
+        return shipDate;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public boolean isComplete() {
+        return complete;
+    }
+
     @Override
     public String toString() {
         return "Order{" +
