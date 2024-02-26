@@ -1,14 +1,12 @@
 package org.autengineer.user;
 
-
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class LoginUserTest {
+public class LogoutUserTest {
 
     @BeforeClass
     public static void setUp() {
@@ -16,17 +14,13 @@ public class LoginUserTest {
     }
 
     @Test
-    public void testLoginUser() {
-        String username = "tana.heathcote";
-        String password = "agwgeodpio9";
-
+    public void testLogoutUser() {
         given()
-                .contentType(ContentType.JSON)
-                .body("{\"username\": \"" + username + "\", \"password\": \"" + password + "\"}")
             .when()
-                .get("/user/login")
+                .get("/user/logout")
             .then()
                 .statusCode(200)
                 .log().body();
     }
 }
+
