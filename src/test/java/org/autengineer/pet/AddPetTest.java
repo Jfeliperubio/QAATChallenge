@@ -35,9 +35,9 @@ public class AddPetTest {
         given()
                 .contentType(ContentType.JSON)
                 .body(petJson)
-                .when()
+            .when()
                 .post("/pet")
-                .then()
+            .then()
                 .statusCode(200)
                 .log().body();
     }
