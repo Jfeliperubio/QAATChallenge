@@ -11,7 +11,7 @@ public class UpdateUserByUserNameTest {
 
     @BeforeClass
     public static void setUp() {
-        RestAssured.baseURI = "http://localhost:8080/api/v3"; // Ajusta la URL base según tu configuración
+        RestAssured.baseURI = "http://localhost:8080/api/v3";
     }
 
     @Test

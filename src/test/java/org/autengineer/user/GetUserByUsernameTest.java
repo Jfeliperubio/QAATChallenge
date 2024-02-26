@@ -10,7 +10,7 @@ public class GetUserByUsernameTest {
 
     @BeforeClass
     public static void setUp() {
-        RestAssured.baseURI = "http://localhost:8080/api/v3"; // Ajusta la URL base según tu entorno
+        RestAssured.baseURI = "http://localhost:8080/api/v3";
     }
 
     @Test
